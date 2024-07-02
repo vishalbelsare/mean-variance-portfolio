@@ -11,8 +11,8 @@ with open('README.rst') as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = ['numpy==1.14.5',
-                'scipy==1.1.0']
+requirements = ['numpy==2.0.0',
+                'scipy==1.14.0']
 
 setup_requirements = [ ]
 
@@ -36,7 +36,8 @@ setup(
     description="MV Port is a Python package to perform Mean-Variance Analysis. It provides a Portfolio class with a variety of methods to help on your portfolio optimization tasks.",
     install_requires=requirements,
     license="MIT license",
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
+    long_description_content_type="text/markdown",
     include_package_data=True,
     keywords='mvport',
     name='mvport',
@@ -45,6 +46,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/condereis/mean-variance-portfolio',
-    version='1.3.1',
+    version='1.3.2',
     zip_safe=False,
 )

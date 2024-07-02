@@ -6,13 +6,12 @@ Mean Variance Portfolio
 .. image:: https://img.shields.io/pypi/v/mvport.svg
         :target: https://pypi.python.org/pypi/mvport
 
-.. image:: https://img.shields.io/travis/condereis/mean-variance-portfolio.svg
-        :target: https://travis-ci.org/condereis/mean-variance-portfolio
+.. image:: https://github.com/condereis/mean-variance-portfolio/actions/workflows/python-app.yml/badge.svg
+        :target: https://github.com/condereis/mean-variance-portfolio/actions/workflows/python-app.yml
 
 .. image:: https://readthedocs.org/projects/mean-variance-portfolio/badge/?version=latest
         :target: https://mean-variance-portfolio.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
-
 
 .. image:: https://pyup.io/repos/github/condereis/mean-variance-portfolio/shield.svg
      :target: https://pyup.io/repos/github/condereis/mean-variance-portfolio/
